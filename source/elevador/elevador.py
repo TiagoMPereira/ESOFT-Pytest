@@ -19,3 +19,4 @@ class Elevador:
         while self.andar_atual != andar:
             self.mover_um_andar(andar)
         self.movimento = 0
+        return True
