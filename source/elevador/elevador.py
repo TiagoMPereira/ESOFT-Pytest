@@ -1,3 +1,3 @@
 class Elevador:
     def __init__(self):
-        pass
+        self.em_movimento = False
