@@ -47,3 +47,10 @@ class TestElevador:
 
         with pytest.raises(ValueError, match=r"O andar desejado é inexistente"):
             self.elevador.mover(andar_desejado)
+
+    def test_elevador_parada_emergencia(self):
+        self.elevador.emergencia()
+
+        assert self.elevador.movimento == 0
+
+        
