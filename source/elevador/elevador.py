@@ -26,8 +26,10 @@ class Elevador:
         return True
 
     def emergencia(self):
-
         if self.movimento != 0:
             self.movimento = 0
+    
+    def Quebra(self):
+        return False
 
         
