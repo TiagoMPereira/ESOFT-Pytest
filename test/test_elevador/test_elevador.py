@@ -41,3 +41,9 @@ class TestElevador:
         self.elevador.mover(andar=andar_desejado)
 
         assert self.elevador.movimento == 0
+
+    def test_elevador_andar_inexistente_negativo(self):
+        andar_desejado = -3
+
+        with pytest.raises(ValueError, match=r"O andar desejado é inexistente"):
+            self.elevador.mover(andar_desejado)
