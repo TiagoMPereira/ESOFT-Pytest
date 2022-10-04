@@ -79,28 +79,28 @@ Para o usuário:
 ---
 ## Casos de teste
 Arquivo test_elevador:
-Teste 1 - Teste elevador em movimento:
-    -> Verifica se o elevador esta em movimento
-Teste 2 - Teste elevador andar inicial:
-    -> Verifica se o elevador esta no andar inicial
-Teste 3 - Teste elevador mover um andar:
-    -> Verifica se o elevador moveu um andar
-Teste 4 - Teste elevador mover andar final subir:
-    -> Verifica se o elevador subiu a quantidade de andares que foi mandado
-Teste 5 - Teste elevador mover andar final descer:
-    -> Verifica se o elevador desceu a quantidade de andares que foi mandado
-Teste 6 - Teste elevador mover andar final parado:
-    -> Verifica se o elevador tem o status de parado apos mover
-Teste 7 - Teste elevador andar inexistente:
-    -> Verifica se o andar desejado é valido
-Teste 8 - Teste elevador parada emergencial:
-    -> Verifica se o elevador parou apos uma solicitacao de parada emergencial
+- Teste 1 - Teste elevador em movimento:
+    -> Verifica se o elevador esta em movimento.
+- Teste 2 - Teste elevador andar inicial:
+    -> Verifica se o elevador esta no andar inicial.
+- Teste 3 - Teste elevador mover um andar:
+    -> Verifica se o elevador moveu um andar.
+- Teste 4 - Teste elevador mover andar final subir:
+    -> Verifica se o elevador subiu a quantidade de andares que foi mandado.
+- Teste 5 - Teste elevador mover andar final descer:
+    -> Verifica se o elevador desceu a quantidade de andares que foi mandado.
+- Teste 6 - Teste elevador mover andar final parado:
+    -> Verifica se o elevador tem o status de parado apos mover.
+- Teste 7 - Teste elevador andar inexistente:
+    -> Verifica se o andar desejado é valido.
+- Teste 8 - Teste elevador parada emergencial:
+    -> Verifica se o elevador parou apos uma solicitacao de parada emergencial.
 
 Arquivo test_usuario:
-Teste 1 - Teste cria usuario com id:
-    -> Verifica se o usuario criado possui o id descrito
-Teste 2 - Teste chama elevador:
-    -> Verifica se o elevador parou no andar onde foi chamado
+- Teste 1 - Teste cria usuario com id:
+    -> Verifica se o usuario criado possui o id descrito.
+- Teste 2 - Teste chama elevador:
+    -> Verifica se o elevador parou no andar onde foi chamado.
 
 ---
 ## CI
