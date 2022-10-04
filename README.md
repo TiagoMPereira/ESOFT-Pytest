@@ -65,7 +65,16 @@ e toda a suíte de testes será executada.
 
 --- 
 ## Descrição do projeto
-descrever o projeto
+O projeto consiste na simulação de um elevador.
+
+Foram implementadas as seguintes funcionalidades:
+
+Para o elevador:
+- Mover um andar -> Move um andar do elevador, baseado na posição atual.
+- Mover -> É fornecido o andar desejado e executa a função de mover um andar até o destino.
+
+Para o usuário:
+- Chamar elevador -> Executa o mover do elevador até o andar que o usuário se encontra.
 
 ---
 ## Casos de teste
